@@ -1,5 +1,5 @@
 This react based application tells the hemisphere to which the user belongs. 
-#### 4 cases
+## 4 cases
 1. If the user is in the northern hemisphere and the current month is between October and March, it shows that it is winter season.
 2. If the user is in the northern hemisphere and the current month is between March and October, it shows that it is winter season.
 3. If the user is in the southern hemisphere and the current month is between March and October, it shows that it is summer season.
@@ -14,7 +14,7 @@ WebExtensions that wish to use the Geolocation object must add the "geolocation"
 
 The developer can now access this location information in a couple of different ways:
 
-#### Geolocation.getCurrentPosition()
+### Geolocation.getCurrentPosition()
 Retrieves the device's current location.
 Geolocation.watchPosition(): Registers a handler function that will be called automatically each time the position of the device changes, returning the updated location.
 In both cases, the method call takes up to three arguments:
@@ -23,10 +23,10 @@ A mandatory success callback: If the location retrieval is successful, the callb
 An optional error callback: If the location retrieval is unsuccessful, the callback executes with a GeolocationPositionError object as its only parameter, providing access information on what went wrong.
 An optional object which provides options for retrieval of the position data.
 
-#### Note
+## Note
 This API may be unavailable in China. So if you are from China , it may show wrong results or throw an error.
 
-#### How this app works ?
+### How this app works ?
 1. JS file loaded by browser.
 2. App component gets created.
 3. We call geolocation service.
